@@ -1,0 +1,21 @@
+{
+    "db": {
+        "host"     : "localhost",
+        "user"     : "root",
+        "password" : "Pp@rking",
+        "database" : "ppark",
+        "charset"  : "utf8mb4"
+    },
+    "udp_ip_address": "10.32.1.105",    
+    "upd_port": 5025,
+    "udp_pkg_lpr": 115,
+    "upd_pkg_tg": 116,
+    "lpr_base_path": "D:/eps/eps-ui/dist/upload/LPR",
+    "tailgate_base_path": "D:/eps/eps-ui/dist/upload/Tailgate",
+    "log_lpr_tailgate": {
+        "log_path": "./log/",
+        "main_log_name": "lpr_tailgate_main",
+        "log_file_size": 5242880,
+        "log_file_count": 5
+    }
+}
